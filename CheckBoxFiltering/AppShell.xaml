@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CheckBoxFiltering.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CheckBoxFiltering"
+    Shell.FlyoutBehavior="Disabled"
+    Title="CheckBoxFiltering">
+
+    <ShellContent
+        Title="Mastering Shopping: Enhancing Your Product Search with the .NET Maui CheckBox"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
